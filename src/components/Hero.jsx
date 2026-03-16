@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import profileImage from "../assets/mysnappic.jpeg";
+import profileImage from "../assets/MyPic.jpeg";
 
 const ROLES = ["Ashirwad Kumar", "Full Stack Developer", "Problem Solver", "Coder"];
 
