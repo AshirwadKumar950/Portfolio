@@ -5,7 +5,6 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
-import Chatbot from './components/Chatbot'
 function App() {
   return (
     <>
@@ -23,7 +22,6 @@ function App() {
         <Contacts />
       </div>
       <Footer />
-      <Chatbot />
     </>
   )
 }
