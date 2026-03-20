@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import clubManager from "../assets/clubManager.png";
 import cityMatch from "../assets/cityMatch.png";
 import smartEcom from "../assets/ecommerceWeb.png";
+import DPI from "../assets/DPI.png";
 import cervicalCancer from "../assets/cervicalCancer.jpeg";
 
 
@@ -43,6 +44,15 @@ const PROJECTS = [
     githubLink: "https://github.com/AshirwadKumar950/CervicalCancerPrediction",
     liveLink: "",
     tags: ["Python", "Machine Learning(XGBoost, Random Forest, Logistic Regression and Decision Trees)", "Data Analysis", "Scikit-learn", "Pandas"],
+  },
+  {
+  title: "Deep Packet Inspection (DPI) Engine",
+  description:
+    "A high-performance C++ network traffic analysis engine that performs deep packet inspection across Ethernet/IP/TCP layers. It extracts TLS SNI fields from HTTPS handshakes to classify and block applications like YouTube and Facebook, using a multi-threaded pipeline with consistent hashing and stateful Five-Tuple flow tracking.",
+  image: DPI, 
+  githubLink: "https://github.com/AshirwadKumar950/DeepPacketInspection",
+  liveLink: "",
+  tags: ["C++", "Network Programming", "Multi-threading", "Deep Packet Inspection", "TLS/SNI Extraction", "TCP/IP", "Hash Maps"],
   },
 ];
 
